@@ -3,7 +3,7 @@ import requests
 
 st.title("Iris Flower Prediction")
 
-st.write("Enter the dimensions of the Iris flower to predict its species.")
+st.write("Please enter the dimensions of the Iris flower to predict its species.")
 
 sepal_length = st.slider("Sepal Length", 4.0, 8.0, 5.0)
 sepal_width = st.slider("Sepal Width", 2.0, 5.0, 3.0)
